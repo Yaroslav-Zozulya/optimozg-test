@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 5000px;
+      }
+      ul {
+        position: fixed;
+        top: 50px;
+        left: 15px;
+
+        padding: 0;
+        margin: 0;
+
+        list-style: none;
+      }
+
+      a {
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+        text-decoration: none;
+        transition: color 250ms linear;
+      }
+
+      a:hover,
+      a:focus {
+        color: green;
+      }
+
+      p {
+        margin-top: 200px;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Разметку контактов взял с сайта из тз (Задача 2). Добавил для наглядного
+      теста скрипта
+    </p>
+    <ul class="ft-header-dropdown ft-header-contact-phones">
+      <li class="first">
+        <a href="tel:+18008841721"
+          ><span class="country">United States :</span
+          ><span class="phone">+1 (800) 884-1721</span></a
+        >
+      </li>
+      <li>
+        <a href="tel:+61261888118"
+          ><span class="country">Australia :</span
+          ><span class="phone">+61 2 6188 8118</span></a
+        >
+      </li>
+      <li>
+        <a href="tel:+6531590718"
+          ><span class="country">Singapore :</span
+          ><span class="phone">+65 3159 0718</span></a
+        >
+      </li>
+      <li>
+        <a href="tel:+41435052888"
+          ><span class="country">Europe :</span
+          ><span class="phone">+41 43 505 2888</span></a
+        >
+      </li>
+      <li class="last">
+        <a href="tel:+41435052888"
+          ><span class="country">Switzerland :</span
+          ><span class="phone">+41435052888</span></a
+        >
+      </li>
+    </ul>
+    <script src="./js/task2/index.js" type="module"></script>
+  </body>
+</html>
