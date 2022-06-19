@@ -1,10 +1,10 @@
 import { onClick } from "./onClick.js";
 
-const australiaPhone = document.querySelector('a[href = "tel:+61261888118"]');
-
 function index() {
   const idGoogleAnalytics = "UA-49112570-1"; // ID Google Analytics
+
   // Получаем ссылку на элемент с нужным номером
+  const australiaPhone = document.querySelector('a[href = "tel:+61261888118"]');
 
   // Проверяем является ли это номер Австралии и соответствует ли Google Id
   if (
